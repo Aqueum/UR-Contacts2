@@ -45,7 +45,7 @@ class ListContacts extends Component {
         {showingContacts.length !== contacts.length &&
           <div className="showing-conatcs">
             <span>
-              Now showing {showingContacts.length} of {contact‘s.length} total
+              Now showing {showingContacts.length} of {contacts.length} total
             </span>
           </div>}
 
