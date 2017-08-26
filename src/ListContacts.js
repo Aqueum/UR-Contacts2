@@ -42,7 +42,8 @@ class ListContacts extends Component {
           />
         </div>
 
-        {showingContacts.length !== contacts.length && <div>Hello!</div>}
+        {showingContacts.length !== contacts.length &&
+          <div className="">Hello!</div>}
 
         <ol className="contact-list">
           {showingContacts.map(contact =>
