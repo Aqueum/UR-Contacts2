@@ -32,7 +32,7 @@ class ListContacts extends Component {
 
     return (
       <div className="list-contacts">
-        <div className="list-contatcs-top">
+        <div className="list-contact‘s-top">
           <input
             className="search-contacts"
             type="text"
@@ -43,7 +43,7 @@ class ListContacts extends Component {
         </div>
 
         {showingContacts.length !== contacts.length &&
-          <div className="showing-conatcs">
+          <div className="showing-contacts">
             <span>
               Now showing {showingContacts.length} of {contacts.length} total
             </span>
