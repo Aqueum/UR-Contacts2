@@ -27,6 +27,9 @@ class ListContacts extends Component {
     } else {
       showingContacts = this.props.contacts;
     }
+
+    showingContacts.sort(sortBy('name'));
+
     return (
       <div className="list-contacts">
         <div className="list-contatcs-top">
