@@ -43,7 +43,11 @@ class ListContacts extends Component {
         </div>
 
         {showingContacts.length !== contacts.length &&
-          <div className="">Hello!</div>}
+          <div className="showing-conatcs">
+            <span>
+              Now showing {showingContacts.length} of {contact‘s.length} total
+            </span>
+          </div>}
 
         <ol className="contact-list">
           {showingContacts.map(contact =>
