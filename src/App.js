@@ -27,6 +27,7 @@ class App extends Component {
     return (
       <div className="app">
         <Route
+          exact
           path="/"
           render={() =>
             <ListContacts
